@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import Hero from '@/components/sections/Hero'
 import SectionHeader from '@/components/sections/SectionHeader'
 import PrintGrid from '@/components/sections/PrintGrid'
@@ -128,13 +129,13 @@ by specialists who have been doing this for thirty years.`}
             </p>
           </div>
 
-          <a
+          <Link
             href="/about"
             className="nav-link font-mono uppercase tracking-widest opacity-60 hover:opacity-100 transition-opacity"
             style={{ fontSize: '0.6875rem', whiteSpace: 'nowrap' }}
           >
             Read the manifesto →
-          </a>
+          </Link>
         </div>
       </section>
     </>
