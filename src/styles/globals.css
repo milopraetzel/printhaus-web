@@ -34,16 +34,16 @@
   --font-size-5xl: 5rem;        /* 80px — hero headline desktop */
   --font-size-6xl: 6.5rem;      /* 104px — editorial display */
 
-  /* ─── Spacing ────────────────────────────────────────────── */
-  --spacing-micro: 4px;
-  --spacing-xs: 8px;
-  --spacing-sm: 16px;
-  --spacing-md: 24px;
-  --spacing-lg: 40px;
-  --spacing-xl: 64px;
-  --spacing-2xl: 96px;
-  --spacing-3xl: 128px;
-  --spacing-section: 160px;
+  /* ─── Spacing (prefixed to avoid overriding Tailwind's scale) ── */
+  --space-micro: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+  --space-2xl: 96px;
+  --space-3xl: 128px;
+  --space-section: 160px;
 
   /* ─── Motion Easings ─────────────────────────────────────── */
   --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
